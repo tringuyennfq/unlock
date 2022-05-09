@@ -1,0 +1,19 @@
+{
+    "name": "tringuyen/unlock",
+    "description": "feature/composer-init",
+    "autoload": {
+        "psr-4": {
+            "TriNguyen\\Unlock\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tringuyennfq",
+            "email": "tri.nguyen@nfq.asia"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*"
+    }
+}
