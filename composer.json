@@ -3,7 +3,7 @@
     "description": "feature/composer-init",
     "autoload": {
         "psr-4": {
-            "Tringuyen\\Unlock\\": "src/"
+            "TriNguyen\\Unlock\\": "src/"
         }
     },
     "authors": [
