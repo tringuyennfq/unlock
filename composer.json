@@ -15,5 +15,10 @@
     "require-dev": {
         "squizlabs/php_codesniffer": "3.*",
         "phpunit/phpunit": "^9"
+    },
+    "autoload-dev": {
+    "psr-4": {
+            "Test\\": "Tests/"
+        }
     }
 }
