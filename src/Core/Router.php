@@ -1,6 +1,6 @@
 <?php
 
-namespace TriNguyen\Unlock\Core;
+namespace Tringuyen\Unlock\Core;
 
 class Router
 {

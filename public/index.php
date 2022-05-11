@@ -1,11 +1,8 @@
 <?php
 
-use TriNguyen\Unlock\Core\Application;
+use Tringuyen\Unlock\Core\Application;
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+require '../vendor/autoload.php';
 
-require '/var/www/unlock/vendor/autoload.php';
-
-$test = new Application();
-$test->run();
+$testapp = new Application();
+$testapp->run();
