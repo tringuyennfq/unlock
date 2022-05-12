@@ -18,8 +18,8 @@ class Router
     }
     public function resolve()
     {
-        echo "URI: ".$_SERVER['REQUEST_URI']."<br>";
-        echo "Path: ".$this->request->getPath()."<br>";
-        echo "Method: ".$this->request->getMethod()."<br>";
+        $path = $this->request->getPath();
+        $method = $this->request->getMethod();
+        $callback = $this->routes[$method][$path];
     }
 }

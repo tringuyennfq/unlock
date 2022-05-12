@@ -2,7 +2,7 @@
 
 namespace Tringuyen\Unlock\Core;
 
-use Tringuyen\Unlock\Helper\Dog;
+use Tringuyen\Unlock\Model\Dog;
 
 class Application
 {
@@ -27,7 +27,7 @@ class Application
     }
     public function run()
     {
-        $this->router->resolve();
-        $this->dog->show();
+
+
     }
 }

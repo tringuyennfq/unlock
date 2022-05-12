@@ -1,7 +1,7 @@
 <?php
 namespace Tringuyen\Unlock\Helper;
 
-interface Characteristic
+interface CharacteristicInterface
 {
     public function personality();
 }
