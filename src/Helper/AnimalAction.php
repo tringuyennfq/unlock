@@ -1,8 +1,9 @@
 <?php
 
-namespace Tringuyen\Unlock\Model;
+namespace Tringuyen\Unlock\Helper;
 
-use Tringuyen\Unlock\Helper\Animal;
+use Tringuyen\Unlock\Model\Dog;
+use Tringuyen\Unlock\Model\Duck;
 
 class AnimalAction
 {

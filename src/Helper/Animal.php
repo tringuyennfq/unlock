@@ -6,7 +6,7 @@ abstract class Animal
 {
     public int $weight;
     public int $height;
-//    abstract public function speak();
+    abstract public function speak();
 
     /**
      * @return string

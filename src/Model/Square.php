@@ -11,6 +11,6 @@ class Square extends Shape
     }
     public function area()
     {
-        return $this->height*=$this->height;
+        return $this->height*$this->height;
     }
 }
