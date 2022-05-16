@@ -2,8 +2,8 @@
 
 namespace Tringuyen\Unlock\Helper;
 
+use Tringuyen\Unlock\DesignPattern\SOLID\SRP\Duck;
 use Tringuyen\Unlock\Model\Dog;
-use Tringuyen\Unlock\Model\Duck;
 
 class AnimalAction
 {

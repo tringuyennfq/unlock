@@ -2,8 +2,6 @@
 
 namespace Tringuyen\Unlock\Core;
 
-use Tringuyen\Unlock\Model\Dog;
-
 class Application
 {
     /**
@@ -14,20 +12,14 @@ class Application
      * @var Request
      */
     public Request $request;
-    /**
-     * @var Dog
-     */
-    public Dog $dog;
 
     public function __construct()
     {
-        $this->dog = new Dog(3, 21);
         $this->request = new Request();
         $this->router = new Router($this->request);
     }
     public function run()
     {
-
-
+        echo $this->router->resolve();
     }
 }
