@@ -5,6 +5,7 @@ namespace Tringuyen\Unlock\DesignPattern\Decorator;
 abstract class PizzaDecorator implements PizzaInterface
 {
     protected $topping;
+
     public function __construct(Pizza $pizza)
     {
         $this->topping = $pizza;

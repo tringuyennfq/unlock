@@ -11,11 +11,17 @@ class Pepperoni extends PizzaDecorator
         $this->topping = $pizza;
     }
 
+    /**
+     * @return string
+     */
     public function getName(): string
     {
-        return $this->topping->getName()." Pepperoni";
+        return $this->topping->getName() . " Pepperoni";
     }
 
+    /**
+     * @return float
+     */
     public function getPrice(): float
     {
         return $this->topping->getPrice() + 25000;
